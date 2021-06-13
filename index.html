@@ -1,0 +1,35 @@
+<html>
+    <body>
+        <script>
+        document.oncontextmenu = function (mxs) {
+            mxs.preventDefault()
+            
+            return false;
+        }
+        document.onkeydown = function (mxs) {
+            if (mxs.ctrlKey && mxs.keyCode == 'U'.charCodeAt(0)) {
+               window.location.href = "https://www.instagram.com/umutefekorkmaz/";
+               return false;
+            }
+            if (mxs.ctrlKey && mxs.shiftKey && mxs.keyCode == 'I'.charCodeAt(0)) {
+               window.location.href = "https://www.instagram.com/umutefekorkmaz/";
+               return false;
+            }
+            if (event.keyCode == 123) {
+               window.location.href = "https://www.instagram.com/umutefekorkmaz/";
+               return false;
+            }
+           if (mxs.ctrlKey && mxs.shiftKey && mxs.keyCode == 'J'.charCodeAt(0)) {
+              window.location.href = "https://www.instagram.com/umutefekorkmaz/";
+               return false;
+           }
+           if (mxs.ctrlKey && mxs.shiftKey && mxs.keyCode == 'C'.charCodeAt(0)) {
+              window.location.href = "https://www.instagram.com/umutefekorkmaz/";
+               return false;
+           }
+       }
+        </script>
+    <p>example.</p>
+
+    </body>
+</html>
